@@ -1,11 +1,9 @@
 # EAR Automation
 
-This is a simple Python script project. The main script is `main.py`.
-
+This is a simple Python script project.
 ## How to Run
 
 1. Make sure you have Python installed.
-2. Open a terminal in this folder.
-3. Run:
+2. How to Run:
 
-    python main.py
+    click on run_ar_automation.bat
