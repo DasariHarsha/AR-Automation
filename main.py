@@ -12,7 +12,7 @@ import datetime
 
 
 def run_automation_with_inputs(username, password, report_name, filtered, region, url, skip_rstrategy,skip_instance):
-    chromedriver_path = 'C:\\AR Automation\\chromedriver.exe'
+    chromedriver_path = 'chromedriver.exe'
     driver = start_driver(chromedriver_path)
     start_time = datetime.datetime.now()
     try:
