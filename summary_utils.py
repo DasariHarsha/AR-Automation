@@ -12,7 +12,8 @@ def print_and_log(msg, file_handle, color=None):
 def print_summary(summary, app_summary, start_time, end_time, report_name):
     with open('Files/logs.txt', 'a', encoding='utf-8') as f:
         print_and_log(f"\n\nStart Time: {start_time.strftime('%Y-%m-%d %H:%M:%S')}  End Time: {end_time.strftime('%Y-%m-%d %H:%M:%S')}  for {report_name}\n", f, color='green')
-        print_time=False
+        global print_time
+        print_time = False
         print_and_log("\n--- Overall Automation Summary for Assessment Questionaire---", f)
         print_and_log(f"Total applications processed: {len(summary['applications'])}", f)
         print_and_log(f"Total hostnames with R-Strategy updated: {len(summary['updated'])}", f)
