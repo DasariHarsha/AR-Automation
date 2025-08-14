@@ -1,4 +1,4 @@
-# EAR Automation
+# AR Automation
 
 This is a simple Python script project.
 ## How to Run
